@@ -1,4 +1,4 @@
-import { Meta } from '@storybook/react/types-6-0'
+import { Story, Meta } from '@storybook/react/types-6-0'
 import Main from '.'
 
 export default {
@@ -6,11 +6,4 @@ export default {
   component: Main,
 } as Meta
 
-export const Basic = ({
-  title,
-  description,
-  ...args
-}: {
-  title: string
-  description: string
-}) => <Main title={title} description={description} {...args} />
+export const Basic: Story = (args) => <Main {...args} />
