@@ -1,0 +1,22 @@
+{
+  "name": "PWA App",
+  "short_name": "App",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#06092B",
+  "theme_color": "#06092B",
+  "start_url": "/",
+  "display": "fullscreen",
+  "description": "Boilerplate for NextJS PWA with TS, Storybook and Styled Components."
+}
